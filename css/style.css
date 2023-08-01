@@ -1,0 +1,790 @@
+@font-face {
+    font-family: NormalFont;
+    src: url(../fonts/ArbFONTS-FFShamelFamily-SansOneBook.ttf);
+}
+
+@font-face {
+    font-family: BoldFont;
+    src: url(../fonts/ArbFONTS-FFShamelFamily-SansOneBold.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: NormalFont;
+    overflow-x: hidden;
+}
+
+
+.Texts {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.BigTexts {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.SectionTitle {
+    font-size: 50px;
+    line-height: 75px;
+    font-family: BoldFont;
+}
+
+.OrangeText {
+    color: #fb8500;
+}
+
+.BlueText {
+    color: #0f73fc;
+}
+
+.WhiteText {
+    color: white;
+}
+
+.GreyText {
+    color: #58595b;
+}
+
+.WhiteBG {
+    background-color: white;
+}
+
+.OrangeBG {
+    background-color: #fb8500;
+}
+
+.BlueBG {
+    background-color: #0f73fc;
+}
+
+.GreyBG {
+    background-color: #EFEFEF;
+}
+
+b, strong {
+    font-family: BoldFont;
+}
+
+
+/************
+Header
+**************/
+header.header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/Header/الخلفية-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header.header h1 {
+    font-size: 50px;
+    line-height: 75px;
+    font-family: BoldFont;
+}
+
+header.header h2 {
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 75px;
+
+}
+
+header.header h2 span {
+    font-family: BoldFont;
+    border-bottom: 8px solid #FFB703;
+}
+
+header.header .Texts {
+    font-size: 22px;
+    margin: 0px 20px;
+}
+
+header.header .PhonePart img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 550px;
+}
+
+header.header .ButtonRow a img {
+    transition: 0.3s ease all;
+}
+
+header.header .ButtonRow a:hover img {
+    filter: brightness(75%);
+}
+
+
+/************
+End Header
+**************/
+
+
+
+
+/************
+Characteristics
+**************/
+section.Characteristics .Texts {
+    font-size: 35px;
+    line-height: 45px;
+    font-family: BoldFont;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #EDEDED;
+    border-radius: 25px;
+
+}
+
+section.Characteristics .CharacteristicCards, section.TargetCategories .CharacteristicCards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+section.Characteristics .CharacteristicCards .GreyText, section.TargetCategories .CharacteristicCards .GreyText {
+    text-align: center;
+    font-size: 20px;
+    font-family: BoldFont;
+    margin-top: 20px;
+    color: #494949;
+}
+
+section.Characteristics .CharacteristicCards img {
+    width: 80%;
+    margin: auto;
+}
+
+/************
+End Characteristics
+**************/
+
+
+/************
+Companies
+**************/
+section.Companies .Texts .OrangeBG {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+section.Companies .List .Texts {
+    line-height: 45px;
+}
+
+section.Companies .DownloadNow {
+    font-size: 25px;
+    font-family: BoldFont;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    float: left;
+    display: block;
+    transition: 0.4s ease all;
+}
+
+section.Companies .DownloadNow:hover {
+    background-color: #e27900;
+    color: white;
+}
+
+/************
+End Companies
+**************/
+
+/************
+TargetCategories
+**************/
+section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
+    color: #494949;
+}
+
+section.TargetCategories .CharacteristicCards {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 0px;
+    filter: drop-shadow(3px 6px 6px rgba(0, 0, 0, 0.2));
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section.TargetCategories .CharacteristicCards img {
+    width: 50%;
+    margin: auto;
+}
+
+section.TargetCategories .CharacteristicCards .GreyText {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/************
+End TargetCategories
+**************/
+
+
+/************
+AppImages
+**************/
+section.AppImages {
+    position: relative;
+}
+
+section.AppImages .Texts {
+    color: #494949;
+
+}
+
+section.AppImages .PhoneImg {
+    position: absolute;
+    width: 25%;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 12000;
+
+}
+
+section.AppImages .carousel-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+    height: 100vh;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+section.AppImages .carousel-cell img {
+    width: 85%;
+    margin: auto;
+}
+
+section.AppImages .flickity-page-dots {
+    display: none;
+}
+
+section.AppImages .flickity-prev-next-button {
+    filter: drop-shadow(3px 6px 6px rgba(0, 0, 0, 0.20));
+    background-color: #0f73fc;
+    color: white !important;
+}
+
+
+.AnimatedSearch {
+    opacity: 0;
+    position: absolute;
+    left: 52%;
+    top: 52%;
+    transform: translate(150%, 150%);
+
+    transition: 1.5s ease all;
+    width: 50px !important;
+}
+
+.active .AnimatedSearch {
+    opacity: 1;
+    width: 30px !important;
+    transform: translate(-50%, -50%);
+}
+
+/************
+End AppImages
+**************/
+
+
+/************************************
+************************************
+About Us
+************************************
+**************************************/
+
+/*Header*/
+.AboutUs header.header {
+    background-image: url(../images/AboutUs/1st\ section.png);
+    height: 85vh;
+}
+
+.AboutUs header.header h2 {
+    font-size: 35px;
+    font-family: BoldFont;
+}
+
+.AboutUs section.OurMessage .SectionTitle {
+    font-size: 40px;
+}
+
+.AboutUs section.OurMessage .BlueBG, .AboutUs section.OurMessage .GreyBG {
+    border-radius: 30px;
+}
+
+.AboutUs section.OurMessage .Texts {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.AboutUs section.Characteristics .Texts {
+    background-color: transparent;
+    font-size: 25px;
+}
+
+.AboutUs section.Characteristics .CharacteristicCards .GreyText {
+    font-size: 25px;
+}
+
+.AboutUs section.OurTeam .BlueBG {
+    border-radius: 25px;
+}
+
+.AboutUs section.OurTeam .Texts {
+    font-size: 35px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.AboutUs section.OurTeam .paragraph {
+    font-size: 18px;
+    text-align: center;
+}
+
+.AboutUs .BorderLeft {
+    position: relative;
+    z-index: 1;
+
+}
+
+.AboutUs .BorderLeft:before {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: 50%;
+    height: 1px;
+    width: 50%;
+    transform: rotate(90deg);
+    border-bottom: 1px solid #58595b;
+}
+
+
+.AboutUs section.FormPart .WhiteBG {
+    border-radius: 25px;
+}
+
+.AboutUs section.FormPart .paragraph {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.AboutUs section.FormPart input, .AboutUs section.FormPart textarea {
+    width: 100%;
+    border: none;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+    padding: 5px 10px;
+    color: #58595b;
+}
+
+.AboutUs section.FormPart .row .d-flex .paragraph {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.AboutUs section.FormPart .row .d-flex input {
+    width: 70%;
+}
+
+.AboutUs section.FormPart textarea {
+    border-radius: 20px;
+}
+
+.AboutUs section.FormPart button {
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+/************************************
+************************************
+End About Us
+************************************
+**************************************/
+
+
+
+/************************************
+************************************
+Media
+************************************
+**************************************/
+
+
+@media (min-width: 1400px) {
+
+    header.header .blueRectangle {
+        left: 14%;
+        width: 200px;
+    }
+
+    header.header .ImagePart img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1400px) {
+    header.header .PhonePart img {
+        left: 5%;
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    header.header .PhonePart img {
+        width: 450px;
+    }
+
+    header.header h1 {
+        font-size: 43px;
+        line-height: 60px;
+    }
+
+    header.header h2 {
+        font-size: 25px;
+    }
+
+    .SearchIcon {
+        width: 25px;
+    }
+
+    header.header .Texts {
+        font-size: 16px;
+    }
+
+    section.Characteristics .Texts {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    section.Characteristics .CharacteristicCards img {
+        width: 70%;
+    }
+
+    .SectionTitle {
+        font-size: 45px;
+    }
+
+    .Texts {
+        font-size: 20px;
+    }
+
+    section.Companies .DownloadNow {
+        font-size: 20px;
+    }
+
+    section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
+        font-size: 40px;
+    }
+
+    section.TargetCategories .CharacteristicCards .GreyText {
+        font-size: 20px;
+    }
+
+    section.AppImages .carousel-cell {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    section.AppImages .carousel-cell img {
+        width: 90%;
+        margin: unset;
+    }
+
+    section.Statistics .CharacteristicCards img {
+        width: 70%;
+    }
+
+    .BigTexts {
+        font-size: 30px;
+    }
+
+    section.Statistics .CharacteristicCards .SectionTitle {
+        font-size: 35px;
+    }
+
+    .AboutUs section.OurMessage .SectionTitle {
+        font-size: 35px;
+    }
+
+    .AboutUs section.OurMessage .Texts {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .MapImage img {
+        width: 100% !important;
+    }
+
+    .MapImage img.AnimatedSearch {
+        width: 27px !important;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .CharacRow {
+        width: 100% !important;
+    }
+
+    header.header .Texts {
+        font-size: 20px;
+    }
+
+    section.Characteristics .Texts {
+        font-size: 25px;
+    }
+
+    section.Characteristics .CharacteristicCards img {
+        width: 85%;
+        margin: 0px auto;
+    }
+
+    .PhoneImage img {
+        width: 50% !important;
+    }
+
+    section.Characteristics .CharacteristicCards {
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    header.header {
+        height: fit-content;
+        padding-bottom: 0px !important;
+    }
+
+    header.header h2 {
+        text-align: center;
+    }
+
+    .PhonePart {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+    header.header .PhonePart img {
+        position: relative;
+    }
+
+    .AboutUs .BorderLeft {
+        margin-bottom: 35px;
+    }
+
+    section.FormPart .SectionTitle {
+        text-align: center;
+    }
+
+    .PhoneRow {
+        flex-direction: column;
+    }
+
+    .AboutUs section.FormPart .row .d-flex .paragraph {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .AboutUs section.FormPart .row .d-flex input {
+        width: 100%;
+    }
+
+    .AboutUs .BorderLeft::before {
+        top: unset;
+        bottom: -20px;
+        left: 50%;
+        transform: rotate(0deg) translateX(-50%);
+        width: 75%;
+    }
+
+    .AboutUs section.OurMessage .Texts {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .AboutUs section.OurMessage .SectionTitle {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .AboutUs header.header h2 {
+        font-size: 25px;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    header.header h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    section.Companies .DownloadNow {
+        display: flex;
+        margin: auto;
+    }
+
+    .CompanyImage img {
+        margin-top: 40px;
+        width: 50% !important;
+        margin: auto;
+    }
+
+    .AboutUs section.OurTeam .Texts {
+        font-size: 25px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    section.AppImages .carousel-cell {
+
+        height: 55vh;
+    }
+
+    .flickity-enabled.is-draggable .flickity-viewport {
+        height: 400px;
+    }
+
+    .MapImage img {
+        width: 100% !important;
+    }
+
+    .MapImage img.AnimatedSearch {
+        width: 27px !important;
+    }
+
+    section.Statistics .CharacteristicCards img {
+        width: 55%;
+    }
+
+    section.Companies .List .Texts {
+
+        justify-content: center;
+    }
+
+    section.Companies .Texts {
+        text-align: center;
+    }
+
+    section.Companies .SectionTitle {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .AboutUs section.OurTeam .paragraph {
+        font-size: 15px;
+    }
+
+    .AboutUs section.FormPart button {
+        width: 100% !important;
+    }
+
+    section.Characteristics .CharacteristicCards img {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .AboutUs section.Characteristics .CharacteristicCards .GreyText {
+        font-size: 20px;
+    }
+
+    .SectionTitle {
+        font-size: 35px;
+    }
+
+    .AboutUs section.Characteristics .Texts {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    section.Characteristics .CharacteristicCards .GreyText, section.TargetCategories .CharacteristicCards .GreyText {
+        font-size: 15px;
+    }
+
+    section.Characteristics .Texts {
+        font-size: 20px;
+    }
+
+    .Texts {
+        font-size: 14px;
+    }
+
+    section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
+        font-size: 25px;
+    }
+
+    section.AppImages .carousel-cell {
+        height: 24vh;
+    }
+
+    .flickity-enabled.is-draggable .flickity-viewport {
+        height: 180px;
+    }
+
+    section.AppImages .flickity-prev-next-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    section.Statistics .CharacteristicCards .SectionTitle {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .BigTexts {
+        font-size: 19px;
+    }
+
+    section.Statistics .CharacteristicCards img {
+        width: 70%;
+    }
+
+    header.header h1 {
+        font-size: 35px;
+    }
+
+    header.header h2 {
+        font-size: 15px;
+    }
+
+    header.header h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .DownloadText {
+        justify-content: center;
+    }
+
+    header.header .PhonePart img {
+        width: 250px;
+        margin-top: 40px;
+    }
+}
