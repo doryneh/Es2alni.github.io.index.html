@@ -650,6 +650,7 @@ Media
     section.Companies .DownloadNow {
         display: flex;
         margin: auto;
+        border-radius: 10px;
     }
 
     .CompanyImage img {
@@ -733,6 +734,15 @@ Media
 
     section.Characteristics .Texts {
         font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+    section.Companies .List .Texts {
+        line-height: 35px;
+    }
+    section.Companies .Texts .OrangeBG {
+        width: 10px;
+        height: 10px;
     }
 
     .Texts {
@@ -781,14 +791,17 @@ Media
     }
 
     header.header h2 {
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 50px;
     }
 
     header.header h1 {
-        font-size: 22px;
+        font-size: 25px;
         line-height: 40px;
     }
-
+    header.header h2 span{
+        border-bottom: 4px solid #FFB703;
+    }
     .DownloadText {
         justify-content: center;
     }
