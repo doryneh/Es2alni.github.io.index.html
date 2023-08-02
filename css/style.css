@@ -16,18 +16,18 @@ body {
 
 
 .Texts {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
 }
 
 .BigTexts {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
     font-weight: 600;
 }
 
 .SectionTitle {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 75px;
     font-family: BoldFont;
 }
@@ -82,13 +82,13 @@ header.header {
 }
 
 header.header h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 75px;
     font-family: BoldFont;
 }
 
 header.header h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
     line-height: 75px;
 
@@ -100,7 +100,7 @@ header.header h2 span {
 }
 
 header.header .Texts {
-    font-size: 22px;
+    font-size: 19px;
     margin: 0px 20px;
 }
 
@@ -113,6 +113,7 @@ header.header .PhonePart img {
 
 header.header .ButtonRow a img {
     transition: 0.3s ease all;
+    width: 95% !important;
 }
 
 header.header .ButtonRow a:hover img {
@@ -131,7 +132,7 @@ End Header
 Characteristics
 **************/
 section.Characteristics .Texts {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 45px;
     font-family: BoldFont;
     text-align: center;
@@ -150,7 +151,7 @@ section.Characteristics .CharacteristicCards, section.TargetCategories .Characte
 
 section.Characteristics .CharacteristicCards .GreyText, section.TargetCategories .CharacteristicCards .GreyText {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-family: BoldFont;
     margin-top: 20px;
     color: #494949;
@@ -180,7 +181,7 @@ section.Companies .List .Texts {
 }
 
 section.Companies .DownloadNow {
-    font-size: 25px;
+    font-size: 20px;
     font-family: BoldFont;
     padding: 10px 40px;
     border-radius: 20px;
@@ -188,6 +189,7 @@ section.Companies .DownloadNow {
     float: left;
     display: block;
     transition: 0.4s ease all;
+    width: fit-content;
 }
 
 section.Companies .DownloadNow:hover {
@@ -223,7 +225,7 @@ section.TargetCategories .CharacteristicCards img {
 
 section.TargetCategories .CharacteristicCards .GreyText {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /************
@@ -316,12 +318,12 @@ About Us
 }
 
 .AboutUs header.header h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: BoldFont;
 }
 
 .AboutUs section.OurMessage .SectionTitle {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .AboutUs section.OurMessage .BlueBG, .AboutUs section.OurMessage .GreyBG {
@@ -329,17 +331,17 @@ About Us
 }
 
 .AboutUs section.OurMessage .Texts {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 40px;
 }
 
 .AboutUs section.Characteristics .Texts {
     background-color: transparent;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .AboutUs section.Characteristics .CharacteristicCards .GreyText {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .AboutUs section.OurTeam .BlueBG {
@@ -347,13 +349,13 @@ About Us
 }
 
 .AboutUs section.OurTeam .Texts {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     line-height: 60px;
 }
 
 .AboutUs section.OurTeam .paragraph {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -380,7 +382,7 @@ About Us
 }
 
 .AboutUs section.FormPart .paragraph {
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     margin-bottom: 20px;
 
@@ -391,7 +393,7 @@ About Us
     border: none;
     background-color: #EFEFEF;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     outline: none;
     padding: 5px 10px;
     color: #58595b;
@@ -411,7 +413,7 @@ About Us
 }
 
 .AboutUs section.FormPart button {
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 25px;
 }
 
@@ -456,12 +458,12 @@ Media
     }
 
     header.header h1 {
-        font-size: 43px;
+        font-size: 40px;
         line-height: 60px;
     }
 
     header.header h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .SearchIcon {
@@ -469,11 +471,11 @@ Media
     }
 
     header.header .Texts {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     section.Characteristics .Texts {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 45px;
         margin-bottom: 30px;
     }
@@ -483,23 +485,23 @@ Media
     }
 
     .SectionTitle {
-        font-size: 45px;
-    }
-
-    .Texts {
-        font-size: 20px;
-    }
-
-    section.Companies .DownloadNow {
-        font-size: 20px;
-    }
-
-    section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
         font-size: 40px;
     }
 
+    .Texts {
+        font-size: 18px;
+    }
+
+    section.Companies .DownloadNow {
+        font-size: 18px;
+    }
+
+    section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
+        font-size: 35px;
+    }
+
     section.TargetCategories .CharacteristicCards .GreyText {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     section.AppImages .carousel-cell {
@@ -518,19 +520,19 @@ Media
     }
 
     .BigTexts {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     section.Statistics .CharacteristicCards .SectionTitle {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .AboutUs section.OurMessage .SectionTitle {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .AboutUs section.OurMessage .Texts {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 30px;
     }
 
@@ -550,11 +552,11 @@ Media
     }
 
     header.header .Texts {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     section.Characteristics .Texts {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     section.Characteristics .CharacteristicCards img {
@@ -620,24 +622,24 @@ Media
     }
 
     .AboutUs section.OurMessage .Texts {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 25px;
         text-align: center;
     }
 
     .AboutUs section.OurMessage .SectionTitle {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
 
     .AboutUs header.header h2 {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         line-height: 45px;
     }
 
     header.header h1 {
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         margin-top: 40px;
     }
@@ -654,7 +656,7 @@ Media
     }
 
     .AboutUs section.OurTeam .Texts {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         line-height: 55px;
     }
@@ -697,7 +699,7 @@ Media
 
 @media (max-width: 767px) {
     .AboutUs section.OurTeam .paragraph {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .AboutUs section.FormPart button {
@@ -712,32 +714,32 @@ Media
 
 @media (max-width: 575px) {
     .AboutUs section.Characteristics .CharacteristicCards .GreyText {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .SectionTitle {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .AboutUs section.Characteristics .Texts {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 30px;
     }
 
     section.Characteristics .CharacteristicCards .GreyText, section.TargetCategories .CharacteristicCards .GreyText {
-        font-size: 15px;
-    }
-
-    section.Characteristics .Texts {
-        font-size: 20px;
-    }
-
-    .Texts {
         font-size: 14px;
     }
 
+    section.Characteristics .Texts {
+        font-size: 18px;
+    }
+
+    .Texts {
+        font-size: 13px;
+    }
+
     section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     section.AppImages .carousel-cell {
@@ -754,12 +756,12 @@ Media
     }
 
     section.Statistics .CharacteristicCards .SectionTitle {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 25px;
     }
 
     .BigTexts {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     section.Statistics .CharacteristicCards img {
@@ -767,15 +769,15 @@ Media
     }
 
     header.header h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     header.header h2 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     header.header h1 {
-        font-size: 27px;
+        font-size: 22px;
         line-height: 40px;
     }
 
