@@ -271,10 +271,9 @@ section.AppImages .carousel-cell img {
     width: 75%;
     margin: auto;
 }
-.flickity-viewport{
-    height: 570px  !important;
+.flickity-viewport {
+    height: 578px !important;
 }
-
 section.AppImages .flickity-page-dots {
     display: none;
 }
@@ -452,14 +451,19 @@ Media
         left: 5%;
         width: 500px;
     }
-
+    .flickity-viewport {
+        height: 536px !important;
+    }
 }
 
 @media (max-width: 1200px) {
     header.header .PhonePart img {
         width: 450px;
     }
-
+    section.AppImages .PhoneImg {
+        position: absolute;
+        width: 24%;
+    }
     header.header h1 {
         font-size: 40px;
         line-height: 60px;
@@ -553,7 +557,14 @@ Media
     .CharacRow {
         width: 100% !important;
     }
-
+   
+    section.AppImages .carousel-cell {
+        height: 21vh;
+    }
+    .flickity-viewport {
+        height: 180px !important;
+    }
+  
     header.header .Texts {
         font-size: 18px;
     }
@@ -761,12 +772,10 @@ Media
         margin: auto;
     }
     section.AppImages .carousel-cell {
-        height: 24vh;
+        height: 21vh;
     }
 
-    .flickity-enabled.is-draggable .flickity-viewport {
-        height: 180px;
-    }
+    
 
     section.AppImages .flickity-prev-next-button {
         width: 30px;
