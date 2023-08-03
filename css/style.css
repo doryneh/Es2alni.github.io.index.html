@@ -216,7 +216,7 @@ section.TargetCategories .CharacteristicCards {
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    min-height: 200px;
+    min-height: 185px;
 }
 
 section.TargetCategories .CharacteristicCards img {
@@ -226,7 +226,7 @@ section.TargetCategories .CharacteristicCards img {
 
 section.TargetCategories .CharacteristicCards .GreyText {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /************
@@ -362,7 +362,7 @@ About Us
 }
 
 .AboutUs section.OurTeam .Texts {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     line-height: 60px;
 }
@@ -420,7 +420,9 @@ About Us
 .AboutUs section.FormPart .row .d-flex input {
     width: 70%;
 }
-
+.AboutUs section.FormPart .SectionTitle {
+    font-size: 35px;
+}
 .AboutUs section.FormPart textarea {
     border-radius: 20px;
 }
