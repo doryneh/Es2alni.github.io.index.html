@@ -71,55 +71,60 @@ b, strong {
 /************
 Navbar
 **************/
-nav.navbar{
-    padding: 40px 0px  !important;
+nav.navbar {
+    padding: 40px 0px !important;
 
 }
-nav.active{
+
+nav.active {
     background-color: white;
     filter: drop-shadow(3px 0px 6px rgba(0, 0, 0, 0.11));
     transition: 0.3s ease all;
-    padding: 20px 0px  !important;
+    padding: 20px 0px !important;
 }
 
 .navbar-brand {
-    
+
     filter: brightness(0) invert(1);
     margin-left: 25px;
-    transition:background-color  0.3s ease;
+    transition: background-color 0.3s ease;
 
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
     margin-left: 25px;
     opacity: 0.9;
-  }
+}
 
-  nav.active  .navbar-nav .nav-link{
+nav.active .navbar-nav .nav-link {
     color: black !important;
     transition: 0.3s ease all;
 
-  }
-  nav.active  .navbar-nav .nav-link.active, nav  .navbar-nav .nav-link.active{
+}
+
+nav.active .navbar-nav .nav-link.active, nav .navbar-nav .nav-link.active {
     font-family: BoldFont;
     opacity: 1;
 
-  }
-  nav.active  .navbar-nav .nav-link:hover{
+}
+
+nav.active .navbar-nav .nav-link:hover {
     color: black;
-  }
-  nav.active .navbar-brand{
+}
+
+nav.active .navbar-brand {
     filter: none;
     transition: 0.3s ease all;
 
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
+}
+
+.navbar-light .navbar-nav .nav-link {
     color: #555;
-  }
+}
+
 /************
 End Navbar
 **************/
@@ -141,7 +146,7 @@ header.header h1 {
     font-size: 40px;
     line-height: 75px;
     font-family: BoldFont;
-    animation: fade; 
+    animation: fade;
     animation-duration: 2s;
 }
 
@@ -330,9 +335,11 @@ section.AppImages .carousel-cell img {
     width: 75%;
     margin: auto;
 }
+
 .flickity-viewport {
     height: 578px !important;
 }
+
 section.AppImages .flickity-page-dots {
     display: none;
 }
@@ -368,7 +375,7 @@ End AppImages
 /************
 Statistics
 **************/
-section.Statistics .CharacteristicCards img{
+section.Statistics .CharacteristicCards img {
     width: 65%;
 }
 
@@ -469,23 +476,28 @@ About Us
     padding: 5px 10px;
     color: #58595b;
 }
-.error{
+
+.error {
     border: 1px solid red !important;
 }
-.true{
+
+.true {
     border: 1px solid green !important;
 
 }
-.FormTextError{
+
+.FormTextError {
     font-size: 16px;
     line-height: 20px;
     color: red;
 }
-.FormTextGreen{
+
+.FormTextGreen {
     font-size: 16px;
     line-height: 20px;
     color: green;
 }
+
 .AboutUs section.FormPart .row .d-flex .paragraph {
     width: 30%;
     margin-bottom: 0;
@@ -494,9 +506,11 @@ About Us
 .AboutUs section.FormPart .row .d-flex input {
     width: 70%;
 }
+
 .AboutUs section.FormPart .SectionTitle {
     font-size: 30px;
 }
+
 .AboutUs section.FormPart textarea {
     border-radius: 20px;
 }
@@ -538,6 +552,7 @@ Media
         left: 5%;
         width: 500px;
     }
+
     .flickity-viewport {
         height: 536px !important;
     }
@@ -547,10 +562,12 @@ Media
     header.header .PhonePart img {
         width: 450px;
     }
+
     section.AppImages .PhoneImg {
         position: absolute;
         width: 24%;
     }
+
     header.header h1 {
         font-size: 35px;
         line-height: 60px;
@@ -644,14 +661,15 @@ Media
     .CharacRow {
         width: 100% !important;
     }
-   
+
     section.AppImages .carousel-cell {
         height: 21vh;
     }
+
     .flickity-viewport {
         height: 180px !important;
     }
-  
+
     header.header .Texts {
         font-size: 18px;
     }
@@ -675,8 +693,18 @@ Media
     }
 
     header.header {
-        height: fit-content;
+        height: 100vh;
+
         padding-bottom: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .AboutUs  header.header {
+        justify-content: center ;
+    }
+    header.header .h-100 {
+        height: fit-content !important;
     }
 
     header.header h2 {
@@ -784,15 +812,64 @@ Media
         width: 55%;
     }
 
-  
+
 
     section.Companies .Texts.mb-5 {
-       margin-top: 20px !important;
-       margin-bottom: 30px !important;
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
     }
 
     section.Companies .SectionTitle {
         line-height: 35px;
+    }
+    .collapse:not(.show){
+        display: none !important;
+        opacity: 0;
+        transition: 0.5s ease all;
+
+    }
+    .collapse{
+        display: flex !important;
+
+        opacity: 1;
+        transition: 0.5s ease all !important;
+
+    }
+    .navbar-toggler {
+        box-shadow: none !important;
+        z-index: 2000;
+        background-color: white;
+        color: #0f73fc !important;
+        outline: none !important;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .navbar-dark .navbar-brand {
+        z-index: 2000;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: black !important;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
     }
 }
 
@@ -801,9 +878,11 @@ Media
     .AboutUs section.OurTeam .paragraph {
         font-size: 13px;
     }
-    section.TargetCategories .CharacteristicCards{
+
+    section.TargetCategories .CharacteristicCards {
         min-height: unset;
     }
+
     .AboutUs section.FormPart button {
         width: 100% !important;
     }
@@ -837,9 +916,11 @@ Media
         padding: 10px 15px;
         border-radius: 10px;
     }
+
     section.Companies .List .Texts {
         line-height: 35px;
     }
+
     section.Companies .Texts .OrangeBG {
         width: 10px;
         height: 10px;
@@ -853,18 +934,21 @@ Media
         font-size: 20px;
         line-height: 40px;
     }
+
     header.header .ButtonRow a {
         display: flex;
     }
-    header.header .ButtonRow a img{
+
+    header.header .ButtonRow a img {
         width: 80% !important;
         margin: auto;
     }
+
     section.AppImages .carousel-cell {
         height: 21vh;
     }
 
-    
+
 
     section.AppImages .flickity-prev-next-button {
         width: 30px;
@@ -897,9 +981,11 @@ Media
         font-size: 22px;
         line-height: 40px;
     }
-    header.header h2 span{
+
+    header.header h2 span {
         border-bottom: 4px solid #FFB703;
     }
+
     .DownloadText {
         justify-content: center;
     }
@@ -908,13 +994,13 @@ Media
         width: 250px;
         margin-top: 40px;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         height: 30px;
     }
+
     nav.navbar {
         padding: 15px 0px !important;
     }
-    .active  .navbar-toggler{
-        color: #0f73fc !important;
-    }
+
 }
