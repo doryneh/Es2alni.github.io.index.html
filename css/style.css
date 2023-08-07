@@ -21,13 +21,13 @@ body {
 }
 
 .BigTexts {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 50px;
     font-weight: 600;
 }
 
 .SectionTitle {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 75px;
     font-family: BoldFont;
 }
@@ -68,27 +68,85 @@ b, strong {
     font-family: BoldFont;
 }
 
+/************
+Navbar
+**************/
+nav.navbar{
+    padding: 40px 0px  !important;
+
+}
+nav.active{
+    background-color: white;
+    filter: drop-shadow(3px 0px 6px rgba(0, 0, 0, 0.11));
+    transition: 0.3s ease all;
+    padding: 20px 0px  !important;
+}
+
+.navbar-brand {
+    
+    filter: brightness(0) invert(1);
+    margin-left: 25px;
+    transition:background-color  0.3s ease;
+
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+    opacity: 0.9;
+  }
+
+  nav.active  .navbar-nav .nav-link{
+    color: black !important;
+    transition: 0.3s ease all;
+
+  }
+  nav.active  .navbar-nav .nav-link.active, nav  .navbar-nav .nav-link.active{
+    font-family: BoldFont;
+    opacity: 1;
+
+  }
+  nav.active  .navbar-nav .nav-link:hover{
+    color: black;
+  }
+  nav.active .navbar-brand{
+    filter: none;
+    transition: 0.3s ease all;
+
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #555;
+  }
+/************
+End Navbar
+**************/
+
 
 /************
 Header
 **************/
 header.header {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
-    background-image: url(../images/Header/الخلفية-01.png);
+    background-image: url(../images/Header/BGBlue.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 header.header h1 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 75px;
     font-family: BoldFont;
+    animation: fade; 
+    animation-duration: 2s;
 }
 
 header.header h2 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 200;
     line-height: 75px;
 
@@ -132,7 +190,7 @@ End Header
 Characteristics
 **************/
 section.Characteristics .Texts {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 45px;
     font-family: BoldFont;
     text-align: center;
@@ -252,7 +310,7 @@ section.AppImages .PhoneImg {
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 12000;
+    z-index: 120;
 
 }
 
@@ -326,17 +384,17 @@ About Us
 
 /*Header*/
 .AboutUs header.header {
-    background-image: url(../images/AboutUs/1st\ section.png);
+    background-image: url(../images/AboutUs/1stsection.png);
     height: 85vh;
 }
 
 .AboutUs header.header h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: BoldFont;
 }
 
 .AboutUs section.OurMessage .SectionTitle {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .AboutUs section.OurMessage .BlueBG, .AboutUs section.OurMessage .GreyBG {
@@ -362,7 +420,7 @@ About Us
 }
 
 .AboutUs section.OurTeam .Texts {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     line-height: 60px;
 }
@@ -411,7 +469,23 @@ About Us
     padding: 5px 10px;
     color: #58595b;
 }
+.error{
+    border: 1px solid red !important;
+}
+.true{
+    border: 1px solid green !important;
 
+}
+.FormTextError{
+    font-size: 16px;
+    line-height: 20px;
+    color: red;
+}
+.FormTextGreen{
+    font-size: 16px;
+    line-height: 20px;
+    color: green;
+}
 .AboutUs section.FormPart .row .d-flex .paragraph {
     width: 30%;
     margin-bottom: 0;
@@ -421,14 +495,14 @@ About Us
     width: 70%;
 }
 .AboutUs section.FormPart .SectionTitle {
-    font-size: 35px;
+    font-size: 30px;
 }
 .AboutUs section.FormPart textarea {
     border-radius: 20px;
 }
 
 .AboutUs section.FormPart button {
-    font-size: 25px;
+    font-size: 22px;
     border-radius: 25px;
 }
 
@@ -478,7 +552,7 @@ Media
         width: 24%;
     }
     header.header h1 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 60px;
     }
 
@@ -495,7 +569,7 @@ Media
     }
 
     section.Characteristics .Texts {
-        font-size: 25px;
+        font-size: 22px;
         line-height: 45px;
         margin-bottom: 30px;
     }
@@ -505,7 +579,7 @@ Media
     }
 
     .SectionTitle {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .Texts {
@@ -517,7 +591,7 @@ Media
     }
 
     section.TargetCategories .SectionTitle, section.Statistics .SectionTitle {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     section.TargetCategories .CharacteristicCards .GreyText {
@@ -540,15 +614,15 @@ Media
     }
 
     .BigTexts {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     section.Statistics .CharacteristicCards .SectionTitle {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .AboutUs section.OurMessage .SectionTitle {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .AboutUs section.OurMessage .Texts {
@@ -655,7 +729,7 @@ Media
     }
 
     .AboutUs section.OurMessage .SectionTitle {
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -666,7 +740,7 @@ Media
     }
 
     header.header h1 {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         margin-top: 40px;
     }
@@ -746,7 +820,7 @@ Media
     }
 
     .SectionTitle {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .AboutUs section.Characteristics .Texts {
@@ -798,7 +872,7 @@ Media
     }
 
     section.Statistics .CharacteristicCards .SectionTitle {
-        font-size: 25px;
+        font-size: 22px;
         line-height: 25px;
     }
 
@@ -811,7 +885,7 @@ Media
     }
 
     header.header h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     header.header h2 {
@@ -820,7 +894,7 @@ Media
     }
 
     header.header h1 {
-        font-size: 25px;
+        font-size: 22px;
         line-height: 40px;
     }
     header.header h2 span{
@@ -833,5 +907,14 @@ Media
     header.header .PhonePart img {
         width: 250px;
         margin-top: 40px;
+    }
+    .navbar-brand img{
+        height: 30px;
+    }
+    nav.navbar {
+        padding: 15px 0px !important;
+    }
+    .active  .navbar-toggler{
+        color: #0f73fc !important;
     }
 }

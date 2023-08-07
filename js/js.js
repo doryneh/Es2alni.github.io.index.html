@@ -26,7 +26,14 @@ window.addEventListener("scroll", PinkSeperatorAnim);
  */
 
  $(document).ready(function() {
+
+
+
   $(window).scroll(function() {
+
+
+
+
     // Get the top position of the row element
     var rowTopPosition = $('.row').offset().top;
     var windowHeight = $(window).height();
@@ -65,5 +72,37 @@ window.addEventListener("scroll", PinkSeperatorAnim);
       // Unbind the scroll event once the counting animations are triggered
       $(window).off('scroll');
     }
-  });
+
+
+
+
+
+
 });
+
+});
+
+    
+/******
+ Navbar scroll 
+ ******/
+ 
+$(document).ready(function() {
+ function checkNavbarActive() {
+   var currentScrollTop = $(window).scrollTop();
+
+   if (currentScrollTop > 0) {
+     $("nav.navbar").addClass("active");
+   } else {
+     $("nav.navbar").removeClass("active");
+   }
+ }
+
+ // Initial check when the page loads
+ checkNavbarActive();
+
+ // Handle scroll event and window resize event
+ $(window).on('scroll resize', function () {
+   checkNavbarActive();
+ });
+ });

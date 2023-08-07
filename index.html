@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
+
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <meta name="description" content="">
 
 
@@ -16,12 +19,77 @@
 </head>
 
 <body>
+  <!--Navbar-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-tra " id="Navbar">
+    <div class="container contright rtldirection">
+
+
+
+
+
+
+
+      <a href="index.html" class="navbar-brand logo-white"><img src="images/esalniAR.png" height="50"
+          alt="header-logo"></a>
+
+
+
+      <!-- Navigation Menu -->
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+
+
+
+          <li class="nav-item "><a class="nav-link" href="AboutUs.html">من نحن</a></li>
+          <li class="nav-item "><a class="nav-link" href="#content-4">للشركات</a></li>
+          <li class="nav-item "><a class="nav-link" href="#content-5">للأفراد </a></li>
+
+          <!---
+              <li class="nav-item "><a class="nav-link" href="#pricing-1">الباقات</a></li>
+
+              <li class="nav-item "><a class="nav-link" href="#blog-1">المدونة</a></li>
+
+              <!-- Header Social Icons
+              <li class="header-socials clearfix">
+
+                  @if ($facebook)
+<span><a href="{{ $facebook }}" class="ico-facebook"><i
+                                  class="fab fa-facebook-f"></i></a></span>
+@endif
+                  @if ($twitter)
+<span><a href="{{ $twitter }}" class="ico-twitter"><i
+                                  class="fab fa-twitter"></i></a></span>
+@endif
+
+
+              </li>
+              -->
+
+        </ul>
+      </div> <!-- End Navigation Menu -->
+
+
+      <!-- Responsive Menu Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- LOGO IMAGE -->
+      <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 260 x 60 pixels) -->
+
+
+
+    </div> <!-- End container -->
+  </nav> <!-- End navbar  -->
+  <!--End Navbar-->
+
+
   <!-- Header-->
   <header class="header BlueBG py-5 position-relative" id="header">
     <div class="container h-100">
       <div class="row mx-0 h-100">
         <div class="col-lg-7 d-flex flex-column justify-content-center h-100">
-          <h1 class="WhiteText"><span class="OrangeText"> حلول رقمية </span> تربط
+          <h1 class="WhiteText wow  animate__animated animate__zoomInDown"><span class="OrangeText"> حلول رقمية </span> تربط
             <br>
             مزودي الخدمات بالعملاء
           </h1>
@@ -29,20 +97,20 @@
           <div class="ButtonRow  mt-5">
             <div class="row">
               <div class="col-12  d-flex align-items-center mb-4 mb-sm-0 DownloadText">
-                <img src="images/Header/Artboard 12.png" alt="" class="SearchIcon">
+                <img src="images/Header/Artboard12.png" alt="" class="SearchIcon">
                 <div class="Texts WhiteText"><b>حمل التطبيق الآن</b></div>
               </div>
             </div>
             <div class="d-flex justify-content-start align-items-center mt-2">
-              <a href=""><img src="images/Header/Artboard 11.png" alt="download From Play Store" class="w-100"></a>
+              <a href=""><img src="images/Header/Artboard11.png" alt="download From Play Store" class="w-100"></a>
 
-              <a href=""><img src="images/Header/Artboard 10.png" alt="download From App Store" class="w-100"></a>
+              <a href=""><img src="images/Header/Artboard10.png" alt="download From App Store" class="w-100"></a>
             </div>
-     
+
           </div>
         </div>
-        <div class="col-lg-5  PhonePart">
-          <img src="images/Header/الهاتف.png" alt="الهاتف">
+        <div class="col-lg-5  PhonePart ">
+          <img src="images/Header/Phone.png" alt="Phone" >
         </div>
       </div>
     </div>
@@ -60,25 +128,25 @@
           <div class="row mx-0">
             <div class="col-md-3 col-6">
               <div class="CharacteristicCards">
-                <img src="images/Characteristics/قاعدة بيانات.png" alt="">
+                <img src="images/Characteristics/DataBase.png" alt="DataBase">
                 <div class="GreyText">قاعدة بيانات</div>
               </div>
             </div>
             <div class="col-md-3 col-6">
               <div class="CharacteristicCards">
-                <img src="images/Characteristics/دفع آمن.png" alt="دفع آمن">
+                <img src="images/Characteristics/Dafe3Amen.png" alt="Dafe3Amen ">
                 <div class="GreyText">دفع آمن </div>
               </div>
             </div>
             <div class="col-md-3 col-6 mt-4 mt-md-0">
               <div class="CharacteristicCards">
-                <img src="images/Characteristics/دعم فني.png" alt="دعم فني ">
+                <img src="images/Characteristics/Da3emFanni.png" alt="Da3emFanni  ">
                 <div class="GreyText">دفع آمن </div>
               </div>
             </div>
             <div class="col-md-3 col-6 mt-4 mt-md-0">
               <div class="CharacteristicCards">
-                <img src="images/Characteristics/سهولة الإستخدام.png" alt="سهولة الإستخدام.  ">
+                <img src="images/Characteristics/SuhulatElEstekhdam.png" alt="SuhulatElEstekhdam">
                 <div class="GreyText">سهولة الإستخدام</div>
               </div>
             </div>
@@ -153,7 +221,7 @@
           </div>
         </div>
         <div class="col-lg-6 ps-0 d-flex align-items-center justify-content-center mt-4 mt-lg-0 CompanyImage">
-          <img src="images/Companies/Asset 9@300x.png" alt="Companies Img " class="w-100">
+          <img src="images/Companies/CompanieImage.png" alt="CompanieImage" class="w-100">
         </div>
       </div>
     </div>
@@ -167,78 +235,78 @@
       <div class="row gx-lg-4 mt-5 mx-0">
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/law.png" alt="law">
+            <img src="images/TargetCategories/law.png" alt="law">
             <div class="GreyText">المحاماة </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/accounting.png" alt="accounting">
+            <img src="images/TargetCategories/accounting.png" alt="accounting">
             <div class="GreyText">المحاسبة </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4 mt-md-0 ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/financial consultant.png" alt="financial consultant">
+            <img src="images/TargetCategories/financialConsultant.png" alt="financial consultant">
             <div class="GreyText"> الاستشارات المالية </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4 mt-lg-0 ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/managing consultant.png" alt="managing consultant">
-            <div class="GreyText"> الاستشارات الادارية  </div>
+            <img src="images/TargetCategories/managingconsultant.png" alt="managing consultant">
+            <div class="GreyText"> الاستشارات الادارية </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4 mt-lg-0 ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/engineering consultant.png" alt="engineering consultant">
-            <div class="GreyText"> الاستشارات الهندسية   </div>
+            <img src="images/TargetCategories/engineeringconsultant.png" alt="engineering consultant">
+            <div class="GreyText"> الاستشارات الهندسية </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4 mt-xl-0 ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/technology.png" alt="technology">
-            <div class="GreyText"> التقنية     </div>
+            <img src="images/TargetCategories/technology.png" alt="technology">
+            <div class="GreyText"> التقنية </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/marketing.png" alt="marketing">
+            <img src="images/TargetCategories/marketing.png" alt="marketing">
             <div class="GreyText"> التسويق الرقمي </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4  ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/advertising.png" alt="advertising">
-            <div class="GreyText">  الدعاية والاعلان  </div>
+            <img src="images/TargetCategories/advertising.png" alt="advertising">
+            <div class="GreyText"> الدعاية والاعلان </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/traning.png" alt="traning">
-            <div class="GreyText">  مراكز التدريب    </div>
+            <img src="images/TargetCategories/traning.png" alt="traning">
+            <div class="GreyText"> مراكز التدريب </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/comming.png" alt="comming">
+            <img src="images/TargetCategories/comming.png" alt="comming">
             <div class="GreyText">الإستقدام </div>
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-6 mt-4">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/translate.png" alt="translate">
+            <img src="images/TargetCategories/translate.png" alt="translate">
             <div class="GreyText">اللغات والترجمة </div>
           </div>
         </div>
-        
+
         <div class="col-xl-2  col-lg-3 col-md-4 col-6 mt-4 ">
           <div class="CharacteristicCards p-3">
-            <img src="images/Target Categories/travel and tourism.png" alt="travel and tourism">
-            <div class="GreyText"> السفر والسياحة  </div>
+            <img src="images/TargetCategories/travelAndTourism.png" alt="travel and tourism">
+            <div class="GreyText"> السفر والسياحة </div>
           </div>
         </div>
-      
+
       </div>
     </div>
   </section>
@@ -250,7 +318,7 @@
     <div class="container">
       <div class="row mx-0">
         <div class="col-lg-6 ps-0 d-flex PhoneImage align-items-center order-lg-0 order-1 mt-4 mt-lg-0">
-          <img src="images/Indivduals/Asset 7@300x.png" alt="Individuals Img " class="w-75 mx-auto">
+          <img src="images/Indivduals/IndivualsImage.png" alt="Individuals Img " class="w-75 mx-auto">
         </div>
         <div class="col-lg-6 d-flex align-items-center order-lg-1 order-0">
           <div class="w-100 d-flex flex-column">
@@ -332,26 +400,26 @@
         <b class="mb-2 d-block">اكتشف التطبيق الآن</b>
         التطبيق مبني على احتياج الأفراد والشركات
       </div>
-      <img src="images/App ScreenSHots/Mobile.png" alt="Mobile" class="PhoneImg">
+      <img src="images/AppScreenSHots/Mobile.png" alt="Mobile" class="PhoneImg">
 
       <div class="carousel mt-4" data-flickity='{ "freeScroll": false,"draggable":true, "wrapAround": true }'>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0325.PNG" alt="IMG_0325"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0326.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0327.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0328.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0329.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0330.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0332.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0333.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0334.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0335.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0336.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0337.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0338.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0339.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0340.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0343.PNG" alt="IMG_0326"></div>
-        <div class="carousel-cell"><img src="images/App ScreenSHots/IMG_0344.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0325.PNG" alt="IMG_0325"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0326.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0327.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0328.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0329.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0330.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0332.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0333.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0334.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0335.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0336.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0337.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0338.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0339.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0340.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0343.PNG" alt="IMG_0326"></div>
+        <div class="carousel-cell"><img src="images/AppScreenSHots/IMG_0344.PNG" alt="IMG_0326"></div>
 
 
       </div>
@@ -360,27 +428,65 @@
   </section>
   <!--End App Images-->
 
+  <!--Partners-->
+  <section id="team-1" class="bg-fixed GreyBG wide-100 team-section division py-5">
+    <div class="container py-5">
+
+
+      <!-- SECTION TITLE -->
+      <div class="row mx-0">
+
+        <!-- Title 	-->
+        <h2 class="h2-lg text-center SectionTitle">عملاؤنا شركاء النجاح </h2>
+
+        <div class="d-flex w-100">
+          <img src="images/Partners.jpg" alt="Partners" class="mt-4 mx-auto" style="width: 85%;">
+        </div>
+
+      </div> <!-- END SECTION TITLE -->
+
+
+      <div class="row">
+
+
+
+        <div class="content-img">
+          <!-- <img src="{{ url('theme/images/2.jpg') }}" alt="screenshot" class="img-fluid"> -->
+        </div>
+
+
+      </div> <!-- End row -->
+
+
+
+
+
+    </div> <!-- End container -->
+  </section> <!-- END TEAM-1 -->
+  <!--End Partners-->
+
+  <!--Statistics-->
   <section class="Statistics py-5 GreyBG" id="Statistics">
     <div class="container pt-5">
       <div class="SectionTitle text-center">اسألني في أرقام </div>
       <div class="row mx-0 mt-5">
         <div
           class="col-xl-6 col-lg-4 d-flex align-items-center justify-content-center MapImage order-lg-0 order-1 mt-4 mt-lg-0 position-relative">
-          <img src="images/Es2alni In Numbers/Map.png" alt="Map" class="w-75">
-          <img src="images/Header/Artboard 12.png" alt="Artboard 12" class="AnimatedSearch">
+          <img src="images/Es2alniInNumbers/Map.png" alt="Map" class="w-75">
+          <img src="images/Header/Artboard12.png" alt="Artboard 12" class="AnimatedSearch">
         </div>
         <div class="col-xl-6 col-lg-8  order-lg-1 order-0">
           <div class="row mx-0  d-flex align-items-center justify-content-center w-100">
             <div class="col-6">
               <div class="CharacteristicCards d-flex align-items-center justify-content-center flex-column">
-                <img src="images/Es2alni In Numbers/قطاع خدماتي.png" alt="قطاع خدماتي">
+                <img src="images/Es2alniInNumbers/Kita3Khadamati.png" alt="قطاع خدماتي">
                 <div class="GreyText SectionTitle mt-3 " id="MyServicesNumber"><b>12</b> </div>
                 <div class="GreyText BigTexts">قطاع خدماتي </div>
               </div>
             </div>
             <div class="col-6">
               <div class="CharacteristicCards d-flex align-items-center justify-content-center flex-column">
-                <img src="images/Es2alni In Numbers/شركة مسجلة.png" alt="empp">
+                <img src="images/Es2alniInNumbers/RegisteredCompany.png" alt="empp">
                 <div class="GreyText SectionTitle mt-3" id="RegisteredCompaniesNumber"><b>400</b> </div>
                 <div class="GreyText BigTexts">شركة مسجلة</div>
               </div>
@@ -391,14 +497,17 @@
       </div>
     </div>
   </section>
+  <!--End Statistics-->
 
 </body>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
 <script src="assets/js/all.js"></script>
+<script src="js/js.js"></script>
+
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-<script src="js/js.js"></script>
 
 
 </html>
