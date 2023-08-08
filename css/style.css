@@ -27,8 +27,8 @@ body {
 }
 
 .SectionTitle {
-    font-size: 35px;
-    line-height: 75px;
+    font-size: 25px;
+    line-height: 50px;
     font-family: BoldFont;
 }
 
@@ -311,7 +311,7 @@ section.AppImages .Texts {
 
 section.AppImages .PhoneImg {
     position: absolute;
-    width: 21%;
+    width: 24%;
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
@@ -332,12 +332,12 @@ section.AppImages .carousel-cell {
 }
 
 section.AppImages .carousel-cell img {
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 
 .flickity-viewport {
-    height: 578px !important;
+    height: 676px !important;
 }
 
 section.AppImages .flickity-page-dots {
