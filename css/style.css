@@ -251,10 +251,8 @@ End Characteristics
 /************
 Companies
 **************/
-section.Companies .Texts .OrangeBG {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+section.Companies .Texts  img{
+    width: 20px;
 }
 
 section.Companies .List .Texts {
