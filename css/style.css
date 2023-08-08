@@ -12,6 +12,7 @@ body {
     direction: rtl;
     font-family: NormalFont;
     overflow-x: hidden;
+    height: 100%;
 }
 
 
@@ -126,7 +127,22 @@ nav.active .navbar-brand {
 .navbar-light .navbar-nav .nav-link {
     color: #555;
 }
-
+nav .NavBtn{
+    background-color: #FFB703;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 8px 30px;
+    transition: 0.3s ease all;
+}
+nav .NavBtn:hover{
+    filter: brightness(85%);
+}
+nav.active .NavBtn{
+    background-color: #0f73fc;
+}
 /************
 End Navbar
 **************/
@@ -384,6 +400,25 @@ section.Statistics .CharacteristicCards img {
 /************
 End Statistics
 **************/
+
+
+/***********
+Footer
+***********/
+
+footer .h7-md{
+    font-family: BoldFont;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer .SocialMedia span{
+    margin-left: 5px;
+}
+/***********
+End Footer 
+************/
 
 /************************************
 ************************************

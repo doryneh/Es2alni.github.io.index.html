@@ -86,23 +86,22 @@ window.addEventListener("scroll", PinkSeperatorAnim);
 /******
  Navbar scroll 
  ******/
- 
-$(document).ready(function() {
- function checkNavbarActive() {
-   var currentScrollTop = $(window).scrollTop();
+/*Navbar effect*/
+$(window).on('scroll', function() {
+		
+  "use strict";
+              
+  /*----------------------------------------------------*/
+  /*	Navigtion Menu Scroll
+  /*----------------------------------------------------*/	
+  
+  var b = $(window).scrollTop();
+  
+  if( b > 50 ){		
+    $("#Navbar").addClass("active");
+  } else {
+    $("#Navbar").removeClass("active");
+  }
+      
 
-   if (currentScrollTop > 0) {
-     $("nav.navbar").addClass("active");
-   } else {
-     $("nav.navbar").removeClass("active");
-   }
- }
-
- // Initial check when the page loads
- checkNavbarActive();
-
- // Handle scroll event and window resize event
- $(window).on('scroll resize', function () {
-   checkNavbarActive();
- });
- });
+});
