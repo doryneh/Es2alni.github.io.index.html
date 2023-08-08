@@ -67,7 +67,9 @@ body {
 b, strong {
     font-family: BoldFont;
 }
-
+.redText{
+    color: red;
+}
 /************
 Navbar
 **************/
@@ -401,7 +403,7 @@ About Us
 }
 
 .AboutUs section.OurMessage .SectionTitle {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .AboutUs section.OurMessage .BlueBG, .AboutUs section.OurMessage .GreyBG {
@@ -409,8 +411,8 @@ About Us
 }
 
 .AboutUs section.OurMessage .Texts {
-    font-size: 19px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .AboutUs section.Characteristics .Texts {
@@ -463,6 +465,7 @@ About Us
     font-size: 19px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #0f73fc;
 
 }
 
@@ -517,6 +520,7 @@ About Us
 
 .AboutUs section.FormPart button {
     font-size: 22px;
+    padding: 10px 50px;
     border-radius: 25px;
 }
 

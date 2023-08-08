@@ -25,42 +25,22 @@
 
 
 
-
+      
       <a href="index.html" class="navbar-brand logo-white"><img src="images/esalniAR.png" height="50"
           alt="header-logo"></a>
 
 
 
       <!-- Navigation Menu -->
-      <div id="navbarSupportedContent" class="collapse navbar-collapse" data-bs-spy="scroll">
+      <div id="navbarSupportedContent" class="collapse navbar-collapse d-flex justify-content-between w-100" data-bs-spy="scroll">
+      
         <ul class="navbar-nav ml-auto">
 
 
-
-          <li class="nav-item "><a class="nav-link active" href="AboutUs.html">من نحن</a></li>
+          <li class="nav-item "><a class="nav-link" href="index.html">الرئيسية </a></li>
           <li class="nav-item "><a class="nav-link" href="#content-4">للشركات</a></li>
           <li class="nav-item "><a class="nav-link" href="#content-5">للأفراد </a></li>
-
-          <!---
-              <li class="nav-item "><a class="nav-link" href="#pricing-1">الباقات</a></li>
-
-              <li class="nav-item "><a class="nav-link" href="#blog-1">المدونة</a></li>
-
-              <!-- Header Social Icons
-              <li class="header-socials clearfix">
-
-                  @if ($facebook)
-<span><a href="{{ $facebook }}" class="ico-facebook"><i
-                                  class="fab fa-facebook-f"></i></a></span>
-@endif
-                  @if ($twitter)
-<span><a href="{{ $twitter }}" class="ico-twitter"><i
-                                  class="fab fa-twitter"></i></a></span>
-@endif
-
-
-              </li>
-              -->
+          <li class="nav-item "><a class="nav-link" href="#content-5">المدونة </a></li>
 
         </ul>
       </div> <!-- End Navigation Menu -->
@@ -79,7 +59,6 @@
     </div> <!-- End container -->
   </nav> <!-- End navbar  -->
   <!--End Navbar-->
-
 
     <div class="AboutUs">
 
@@ -264,39 +243,39 @@
 
         <section class="FormPart py-5 GreyBG" id="FormPart">
             <div class="container">
-                <div class="SectionTitle GreyText">تواصل معنا الآن :</div>
+                <div class="SectionTitle GreyText">تواصل معنا :</div>
                 <form action="" class="d-flex flex-column">
                     <div class="row mx-0 mt-4">
                         <div class="col-lg-6">
                             <div class="WhiteBG p-5">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <label for="FirstName" class="paragraph GreyText">الإسم الأول:</label>
+                                        <label for="FirstName" class="paragraph GreyText">الإسم الأول: <span class="redText">*</span></label>
                                         <br>
-                                        <input type="text" placeholder="" id="FirstName" class="error">
+                                        <input type="text" placeholder="" id="FirstName" class="error" required>
                                         <div class="FormTextError mt-3">النص غير صحيح</div>
                                     </div>
                                     <div class="col-sm-6 mt-3 mt-sm-0">
-                                        <label for="LastName" class="paragraph GreyText">الإسم الأخير:</label>
+                                        <label for="LastName" class="paragraph GreyText">الإسم الأخير:  <span class="redText">*</span></label>
                                         <br>
-                                        <input type="text" placeholder="" id="LastName" class="true">
+                                        <input type="text" placeholder="" id="LastName" class="true" required>
                                         <div class="FormTextGreen mt-3">النص غير صحيح</div>
 
                                     </div>
 
                                     <div class="d-flex align-items-center PhoneRow my-4">
-                                        <label for="PhoneNumber" class="paragraph GreyText"> رقم الهاتف:</label>
-                                        <input type="number" placeholder="" id="PhoneNumber" class="ms-2 error">
+                                        <label for="PhoneNumber" class="paragraph GreyText"> رقم الهاتف:  <span class="redText">*</span></label>
+                                        <input type="number" placeholder="" id="PhoneNumber" class="ms-2 error" required>
                                     </div>
                                     <div class="col-sm-6 mt-3 mt-sm-0">
-                                        <label for="CompanyName" class="paragraph GreyText">اسم الشركة:</label>
+                                        <label for="CompanyName" class="paragraph GreyText">اسم الشركة:  <span class="redText">*</span></label>
                                         <br>
-                                        <input type="text" placeholder="" id="CompanyName"  class="true">
+                                        <input type="text" placeholder="" id="CompanyName"  class="true" required>
                                     </div>
                                     <div class="col-sm-6 mt-3 mt-sm-0">
-                                        <label for="CompanyAddress" class="paragraph GreyText">عنوان الشركة:</label>
+                                        <label for="CompanyAddress" class="paragraph GreyText">عنوان الشركة:  <span class="redText">*</span></label>
                                         <br>
-                                        <input type="text" placeholder="" id="CompanyAddress" class="error">
+                                        <input type="text" placeholder="" id="CompanyAddress" class="error" required>
                                     </div>
                                 </div>
 
@@ -304,13 +283,13 @@
                         </div>
                         <div class="col-lg-6  mt-3 mt-lg-0">
                             <div class="WhiteBG p-5 h-100">
-                            <label for="Message" class="paragraph GreyText" >الرسالة:</label>
+                            <label for="Message" class="paragraph GreyText" >الرسالة:  <span class="redText">*</span></label>
                             <br>
-                            <textarea  placeholder="" id="Message" rows="5" class="p-3"></textarea>
+                            <textarea  placeholder="" id="Message" rows="5" class="p-3" required></textarea>
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="OrangeBG WhiteText Texts border-0 w-25 py-3 ms-auto mt-4 me-2"><b>إرسال</b></button>
+                    <button type="submit" class="OrangeBG WhiteText Texts border-0  py-3 ms-auto mt-4 me-2"><b>إرسال</b></button>
                 </form>
 
             </div>
