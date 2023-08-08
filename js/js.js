@@ -87,21 +87,10 @@ window.addEventListener("scroll", PinkSeperatorAnim);
  Navbar scroll 
  ******/
 /*Navbar effect*/
-$(window).on('scroll', function() {
-		
-  "use strict";
-              
-  /*----------------------------------------------------*/
-  /*	Navigtion Menu Scroll
-  /*----------------------------------------------------*/	
-  
-  var b = $(window).scrollTop();
-  
-  if( b > 50 ){		
-    $("#Navbar").addClass("active");
-  } else {
-    $("#Navbar").removeClass("active");
+$(window).scroll(function () {
+  if ($(this).scrollTop() >= 3) {
+     $("nav.navbar").addClass("active");
+
   }
-      
 
 });
