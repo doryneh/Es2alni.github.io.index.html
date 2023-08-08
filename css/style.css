@@ -130,11 +130,11 @@ nav.active .navbar-brand {
 nav .NavBtn{
     background-color: #FFB703;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     box-shadow: none;
-    padding: 8px 30px;
+    padding: 5px 15px;
     transition: 0.3s ease all;
 }
 nav .NavBtn:hover{
