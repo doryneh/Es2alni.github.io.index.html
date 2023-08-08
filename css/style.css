@@ -94,7 +94,7 @@ nav.active {
 
 }
 
-.navbar-dark .navbar-nav .nav-link {
+ .navbar-nav .nav-link {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -886,11 +886,11 @@ Media
 
     }
 
-    .navbar-dark .navbar-brand {
+     .navbar-brand {
         z-index: 2000;
     }
 
-    .navbar-dark .navbar-nav .nav-link {
+     .navbar-nav .nav-link {
         color: black !important;
         text-align: center;
         font-size: 25px;
