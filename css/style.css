@@ -258,7 +258,7 @@ section.Companies .Texts .OrangeBG {
 }
 
 section.Companies .List .Texts {
-    line-height: 45px;
+    line-height: 30px;
 }
 
 section.Companies .DownloadNow {
@@ -277,7 +277,9 @@ section.Companies .DownloadNow:hover {
     background-color: #e27900;
     color: white;
 }
-
+section.Companies  .CompanyImage img{
+    width: 75% !important;
+}
 /************
 End Companies
 **************/
