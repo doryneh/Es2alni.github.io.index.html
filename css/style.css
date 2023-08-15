@@ -65,7 +65,7 @@ body {
     background-color: #EFEFEF;
 }
 
-b, strong {
+b, strong ,.BoldFont{
     font-family: BoldFont;
 }
 .redText{
@@ -492,11 +492,11 @@ About Us
 }
 
 
-.AboutUs section.FormPart .WhiteBG {
+ section.FormPart .WhiteBG {
     border-radius: 25px;
 }
 
-.AboutUs section.FormPart .paragraph {
+ section.FormPart .paragraph {
     font-size: 19px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -504,7 +504,7 @@ About Us
 
 }
 
-.AboutUs section.FormPart input, .AboutUs section.FormPart textarea {
+ section.FormPart input, section.FormPart textarea {
     width: 100%;
     border: none;
     background-color: #EFEFEF;
@@ -536,24 +536,24 @@ About Us
     color: green;
 }
 
-.AboutUs section.FormPart .row .d-flex .paragraph {
+ section.FormPart .row .d-flex .paragraph {
     width: 30%;
     margin-bottom: 0;
 }
 
-.AboutUs section.FormPart .row .d-flex input {
+ section.FormPart .row .d-flex input {
     width: 70%;
 }
 
-.AboutUs section.FormPart .SectionTitle {
+ section.FormPart .SectionTitle {
     font-size: 30px;
 }
 
-.AboutUs section.FormPart textarea {
+ section.FormPart textarea {
     border-radius: 20px;
 }
 
-.AboutUs section.FormPart button {
+ section.FormPart button {
     font-size: 22px;
     padding: 10px 50px;
     border-radius: 25px;
@@ -562,6 +562,108 @@ About Us
 /************************************
 ************************************
 End About Us
+************************************
+**************************************/
+
+
+/************************************
+************************************
+Companies Page
+************************************
+**************************************/
+.CompaniesPage header.header h2{
+    line-height: 40px;
+}
+.CompaniesPage header.header h1 {
+    font-size: 25px;
+    line-height: 45px;
+}
+.CompaniesPage header.header{
+    background-image: url(../images/CompaniesPage/HeaderBG.png);
+}
+.CompaniesPage header.header .BigText img{
+    filter: brightness(0) invert(1);
+    width: 200px;
+}
+.CompaniesPage header.header .BigText .OrangeText{
+    font-size: 40px;
+    font-family: BoldFont;
+}
+.CompaniesPage header.header .FormPart.GreyBG{
+    border-radius: 20px;
+}
+.CompaniesPage header.header .FormPart  .WhiteBG{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.CompaniesPage header.header .FormPart input, .CompaniesPage header.header .FormPart textarea{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+
+}
+.CompaniesPage header.header .FormPart textarea {
+    height: 100px;
+}
+.CompaniesPage header.header .FormPart button{
+    border-radius: 10px;
+}
+.CompaniesPage section.HowTo{
+    margin-bottom: 175px;
+    padding-bottom: 100px !important;
+}
+.CompaniesPage section.HowTo .HowToRow {
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.CompaniesPage .VideoPart .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CompaniesPage .VideoPart video{
+    height: 80vh;
+    margin: auto;
+    border-radius: 30px;
+}
+.CLickButton{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 30px;
+    transition: 0.3s ease all;
+}
+.CLickButton:hover{
+    color: white;
+    filter: brightness(80%);
+
+}
+
+/****
+Reviews
+****/
+
+.CompaniesPage .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.CompaniesPage .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+.CompaniesPage  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+/************************************
+************************************
+End Companies
 ************************************
 **************************************/
 
@@ -772,12 +874,12 @@ Media
         flex-direction: column;
     }
 
-    .AboutUs section.FormPart .row .d-flex .paragraph {
+     section.FormPart .row .d-flex .paragraph {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .AboutUs section.FormPart .row .d-flex input {
+     section.FormPart .row .d-flex input {
         width: 100%;
     }
 
@@ -922,7 +1024,7 @@ Media
         min-height: unset;
     }
 
-    .AboutUs section.FormPart button {
+     section.FormPart button {
         width: 100% !important;
     }
 
