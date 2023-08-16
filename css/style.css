@@ -618,7 +618,7 @@ Companies Page
     width: 100%;
     border-radius: 10px;
     outline: none;
-
+    border: 1px solid #C4C4C4;
 }
 
 .CompaniesPage header.header .FormPart textarea {
@@ -655,9 +655,10 @@ Companies Page
 
 .CLickButton {
     border-radius: 10px;
-    font-size: 20px;
-    padding: 10px 30px;
+    font-size: 18px;
+    padding: 5px 25px;
     transition: 0.3s ease all;
+    margin-top: 20px;
 }
 
 .CLickButton:hover {
@@ -665,7 +666,9 @@ Companies Page
     filter: brightness(80%);
 
 }
-
+.TextAndIconImages{
+    width: 30%;
+}
 /****
 Reviews
 ****/
