@@ -65,12 +65,14 @@ body {
     background-color: #EFEFEF;
 }
 
-b, strong ,.BoldFont{
+b, strong, .BoldFont {
     font-family: BoldFont;
 }
-.redText{
+
+.redText {
     color: red;
 }
+
 /************
 Navbar
 **************/
@@ -94,7 +96,7 @@ nav.active {
 
 }
 
- .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -127,7 +129,8 @@ nav.active .navbar-brand {
 .navbar-light .navbar-nav .nav-link {
     color: #555;
 }
-nav .NavBtn{
+
+nav .NavBtn {
     background-color: #FFB703;
     color: white;
     font-size: 16px;
@@ -137,12 +140,15 @@ nav .NavBtn{
     padding: 5px 15px;
     transition: 0.3s ease all;
 }
-nav .NavBtn:hover{
+
+nav .NavBtn:hover {
     filter: brightness(85%);
 }
-nav.active .NavBtn{
+
+nav.active .NavBtn {
     background-color: #0f73fc;
 }
+
 /************
 End Navbar
 **************/
@@ -251,7 +257,7 @@ End Characteristics
 /************
 Companies
 **************/
-section.Companies .Texts  img{
+section.Companies .Texts img {
     width: 20px;
 }
 
@@ -275,9 +281,11 @@ section.Companies .DownloadNow:hover {
     background-color: #e27900;
     color: white;
 }
-section.Companies  .CompanyImage img{
+
+section.Companies .CompanyImage img {
     width: 75% !important;
 }
+
 /************
 End Companies
 **************/
@@ -406,16 +414,19 @@ End Statistics
 Footer
 ***********/
 
-footer .h7-md{
+footer .h7-md {
     font-family: BoldFont;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: black;
 }
-footer .SocialMedia span{
+
+footer .SocialMedia span {
     margin-left: 5px;
 }
+
 /***********
 End Footer 
 ************/
@@ -492,11 +503,11 @@ About Us
 }
 
 
- section.FormPart .WhiteBG {
+section.FormPart .WhiteBG {
     border-radius: 25px;
 }
 
- section.FormPart .paragraph {
+section.FormPart .paragraph {
     font-size: 19px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -504,7 +515,7 @@ About Us
 
 }
 
- section.FormPart input, section.FormPart textarea {
+section.FormPart input, section.FormPart textarea {
     width: 100%;
     border: none;
     background-color: #EFEFEF;
@@ -536,24 +547,24 @@ About Us
     color: green;
 }
 
- section.FormPart .row .d-flex .paragraph {
+section.FormPart .row .d-flex .paragraph {
     width: 30%;
     margin-bottom: 0;
 }
 
- section.FormPart .row .d-flex input {
+section.FormPart .row .d-flex input {
     width: 70%;
 }
 
- section.FormPart .SectionTitle {
+section.FormPart .SectionTitle {
     font-size: 30px;
 }
 
- section.FormPart textarea {
+section.FormPart textarea {
     border-radius: 20px;
 }
 
- section.FormPart button {
+section.FormPart button {
     font-size: 22px;
     padding: 10px 50px;
     border-radius: 25px;
@@ -571,70 +582,85 @@ End About Us
 Companies Page
 ************************************
 **************************************/
-.CompaniesPage header.header h2{
+.CompaniesPage header.header h2 {
     line-height: 40px;
 }
+
 .CompaniesPage header.header h1 {
     font-size: 25px;
     line-height: 45px;
 }
-.CompaniesPage header.header{
+
+.CompaniesPage header.header {
     background-image: url(../images/CompaniesPage/HeaderBG.png);
 }
-.CompaniesPage header.header .BigText img{
+
+.CompaniesPage header.header .BigText img {
     filter: brightness(0) invert(1);
     width: 200px;
 }
-.CompaniesPage header.header .BigText .OrangeText{
+
+.CompaniesPage header.header .BigText .OrangeText {
     font-size: 40px;
     font-family: BoldFont;
 }
-.CompaniesPage header.header .FormPart.GreyBG{
+
+.CompaniesPage header.header .FormPart.GreyBG {
     border-radius: 20px;
 }
-.CompaniesPage header.header .FormPart  .WhiteBG{
+
+.CompaniesPage header.header .FormPart .WhiteBG {
     border-radius: 20px;
     margin-top: 20px;
 }
-.CompaniesPage header.header .FormPart input, .CompaniesPage header.header .FormPart textarea{
+
+.CompaniesPage header.header .FormPart input, .CompaniesPage header.header .FormPart textarea {
     width: 100%;
     border-radius: 10px;
     outline: none;
 
 }
+
 .CompaniesPage header.header .FormPart textarea {
     height: 100px;
 }
-.CompaniesPage header.header .FormPart button{
+
+.CompaniesPage header.header .FormPart button {
     border-radius: 10px;
 }
-.CompaniesPage section.HowTo{
+
+.CompaniesPage section.HowTo {
     margin-bottom: 175px;
     padding-bottom: 100px !important;
 }
+
 .CompaniesPage section.HowTo .HowToRow {
     position: absolute;
     bottom: -40%;
     left: 50%;
     transform: translateX(-50%);
 }
+
 .CompaniesPage .VideoPart .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.CompaniesPage .VideoPart video{
+
+.CompaniesPage .VideoPart video {
     height: 80vh;
     margin: auto;
     border-radius: 30px;
 }
-.CLickButton{
+
+.CLickButton {
     border-radius: 10px;
     font-size: 20px;
     padding: 10px 30px;
     transition: 0.3s ease all;
 }
-.CLickButton:hover{
+
+.CLickButton:hover {
     color: white;
     filter: brightness(80%);
 
@@ -644,23 +670,59 @@ Companies Page
 Reviews
 ****/
 
-.CompaniesPage .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+.CompaniesPage .ReviewsPart .carousel-cell {
+    width: 40%;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.CompaniesPage .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-.CompaniesPage  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
+.CompaniesPage .ReviewsPart .carousel-cell .BigCard {
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    max-height: 225px;
+    min-height: 25px;
+    overflow: hidden;
+    opacity: 0.3;
+    width: 90%;
+    transition: 0.3s ease all;
+}
+.CompaniesPage .ReviewsPart .is-selected .BigCard{
+    opacity: 1 !important;
+    max-height: 250px;
+    min-height: 250px;
 
+    width: 100%;
+}
+.CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating {
+    font-size: 16px;
+    color: #494949;
+}
+
+.CompaniesPage .ReviewsPart .carousel-cell .BigCard img {
+    border-radius: 50%;
+}
+
+.CompaniesPage .ReviewsPart .carousel-cell .BigCard .ReviewText {
+    font-size: 15px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.CompaniesPage .ReviewsPart .carousel-cell.is-selected .BigCard .ReviewText{
+    -webkit-line-clamp: 4;
+
+}
+.CompaniesPage .ReviewsPart .flickity-viewport {
+    height: 270px !important;
+}
 /************************************
 ************************************
 End Companies
@@ -841,9 +903,11 @@ Media
         flex-direction: column;
         justify-content: end;
     }
-    .AboutUs  header.header {
-        justify-content: center ;
+
+    .AboutUs header.header {
+        justify-content: center;
     }
+
     header.header .h-100 {
         height: fit-content !important;
     }
@@ -874,12 +938,12 @@ Media
         flex-direction: column;
     }
 
-     section.FormPart .row .d-flex .paragraph {
+    section.FormPart .row .d-flex .paragraph {
         width: 100%;
         margin-bottom: 20px;
     }
 
-     section.FormPart .row .d-flex input {
+    section.FormPart .row .d-flex input {
         width: 100%;
     }
 
@@ -963,19 +1027,22 @@ Media
     section.Companies .SectionTitle {
         line-height: 35px;
     }
-    .collapse:not(.show){
+
+    .collapse:not(.show) {
         display: none !important;
         opacity: 0;
         transition: 0.5s ease all;
 
     }
-    .collapse{
+
+    .collapse {
         display: flex !important;
 
         opacity: 1;
         transition: 0.5s ease all !important;
 
     }
+
     .navbar-toggler {
         box-shadow: none !important;
         z-index: 2000;
@@ -988,11 +1055,11 @@ Media
 
     }
 
-     .navbar-brand {
+    .navbar-brand {
         z-index: 2000;
     }
 
-     .navbar-nav .nav-link {
+    .navbar-nav .nav-link {
         color: black !important;
         text-align: center;
         font-size: 25px;
@@ -1024,7 +1091,7 @@ Media
         min-height: unset;
     }
 
-     section.FormPart button {
+    section.FormPart button {
         width: 100% !important;
     }
 
