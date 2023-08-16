@@ -666,9 +666,11 @@ Companies Page
     filter: brightness(80%);
 
 }
-.TextAndIconImages{
+
+.TextAndIconImages {
     width: 30%;
 }
+
 /****
 Reviews
 ****/
@@ -679,7 +681,7 @@ Reviews
     margin-right: 10px;
     border-radius: 5px;
     counter-increment: carousel-cell;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -694,13 +696,15 @@ Reviews
     width: 90%;
     transition: 0.3s ease all;
 }
-.CompaniesPage .ReviewsPart .is-selected .BigCard{
+
+.CompaniesPage .ReviewsPart .is-selected .BigCard {
     opacity: 1 !important;
     max-height: 250px;
     min-height: 250px;
 
     width: 100%;
 }
+
 .CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating {
     font-size: 16px;
     color: #494949;
@@ -719,13 +723,16 @@ Reviews
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.CompaniesPage .ReviewsPart .carousel-cell.is-selected .BigCard .ReviewText{
+
+.CompaniesPage .ReviewsPart .carousel-cell.is-selected .BigCard .ReviewText {
     -webkit-line-clamp: 4;
 
 }
+
 .CompaniesPage .ReviewsPart .flickity-viewport {
     height: 270px !important;
 }
+
 /************************************
 ************************************
 End Companies
