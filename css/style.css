@@ -871,75 +871,92 @@ Media
 }
 
 @media (max-width: 991px) {
-    .CompaniesPage header.header{
+    .CompaniesPage header.header {
         height: fit-content !important;
         padding-bottom: 50px !important;
         padding-top: 70px !important;
     }
+
     .CompaniesPage header.header .BigText {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-  }
-  .CompaniesPage header.header .Texts{
-    text-align: center;
-  }
-  .CompaniesPage section.Characteristics  .TargetRow{
-    width: 100% !important;
-  }
-  .CompaniesPage section.HowTo .HowToRow{
-    width: 100% !important;
-    transform: unset;
-    position: unset;
-  }
-  .CompaniesPage section.HowTo{
-    margin-bottom: 0px;
-    padding-bottom: 20px !important;
-    padding-top: 20px !important;
-  }
-  .TextAndIconImages {
-    width: 35%;
-    margin-top: 20px;
+    }
 
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard img{
-    width: 50% !important;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard .card-body{
-    padding: 0px !important;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard h5.card-title.Texts.BoldFont.WhiteText {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0px !important;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard{
-    height: 425px;
+    .CompaniesPage header.header .Texts {
+        text-align: center;
+    }
 
-}
-.CompaniesPage .ReviewsPart .is-selected .BigCard{
-    height: 450px;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard .ReviewText {
-    font-size: 13px;
-    line-height: 14px;
-    text-align: center;
-}
-.CompaniesPage  .HowTo .SectionTitle {
-    font-size: 16px;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard .card-text{
-    text-align: center;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating {
-    font-size: 13px;
-}
-.CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating svg{
-    margin-left: 0px !important;
-}
+    .CompaniesPage section.Characteristics .TargetRow {
+        width: 100% !important;
+    }
+
+    .CompaniesPage section.HowTo .HowToRow {
+        width: 100% !important;
+        transform: unset;
+        position: unset;
+    }
+
+    .CompaniesPage section.HowTo {
+        margin-bottom: 0px;
+        padding-bottom: 20px !important;
+        padding-top: 20px !important;
+    }
+
+    .TextAndIconImages {
+        width: 35%;
+        margin-top: 20px;
+
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard img {
+        width: 50% !important;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard .card-body {
+        padding: 0px !important;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard h5.card-title.Texts.BoldFont.WhiteText {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px !important;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard {
+        height: 425px;
+
+    }
+
+    .CompaniesPage .ReviewsPart .is-selected .BigCard {
+        height: 450px;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard .ReviewText {
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .CompaniesPage .HowTo .SectionTitle {
+        font-size: 16px;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard .card-text {
+        text-align: center;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating {
+        font-size: 13px;
+    }
+
+    .CompaniesPage .ReviewsPart .carousel-cell .BigCard .Rating svg {
+        margin-left: 0px !important;
+    }
+
     .CharacRow {
         width: 100% !important;
     }
@@ -1154,8 +1171,8 @@ Media
         width: 100vw;
         height: 100vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: center !important;
+        justify-content: center !important;
         z-index: 1000;
     }
 }
