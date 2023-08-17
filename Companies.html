@@ -84,42 +84,42 @@
             <div class="FormPart py-5 GreyBG ">
               <div class="Texts GreyText px-3 mb-3"> *هذا نموذج تسجيل أصحاب الشركات والمؤسسات</div>
               <form action="" class="d-flex flex-column">
-                <div class="px-5">
+                <div class="px-lg-5 px-3">
                   <div class="row">
 
-                    <div class="col-sm-6 col-lg-4 ">
+                    <div class="col-6 col-lg-4 ">
                       <label for="City" class="paragraph GreyText"> المدينة: <span class="redText">*</span></label>
                       <br>
                       <input type="text" placeholder="" id="City" class="" required>
                     </div>
-                    <div class="col-sm-6 col-lg-4  ">
+                    <div class="col-6 col-lg-4  ">
                       <label for="FirstName" class="paragraph GreyText">الإسم الأول: <span
                           class="redText">*</span></label>
                       <br>
                       <input type="text" placeholder="" id="FirstName" class="" required>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-3 ">
+                    <div class="col-6 col-lg-4 mt-lg-0 mt-3 ">
                       <label for="LastName" class="paragraph GreyText">الإسم الأخير: <span
                           class="redText">*</span></label>
                       <br>
                       <input type="text" placeholder="" id="LastName" class="" required>
 
                     </div>
-                    <div class="col-sm-6 col-lg-4 mt-3 ">
+                    <div class="col-6 col-lg-4 mt-3 ">
                       <label for="ُEmailAddress" class="paragraph GreyText"> البريد الألكتروني : <span
                           class="redText">*</span></label>
                       <br>
 
                       <input type="email" placeholder="" id="ُEmailAddress" class="" required>
                     </div>
-                    <div class="col-sm-6 col-lg-4 mt-3 ">
+                    <div class="col-6 col-lg-4 mt-3 ">
                       <label for="PhoneNumber" class="paragraph GreyText"> رقم الهاتف: <span
                           class="redText">*</span></label>
                       <br>
 
                       <input type="number" placeholder="" id="PhoneNumber" class="" required>
                     </div>
-                    <div class="col-sm-6 col-lg-4  mt-3">
+                    <div class="col-6 col-lg-4  mt-3">
                       <label for="CompanyName" class="paragraph GreyText">اسم الشركة: <span
                           class="redText">*</span></label>
                       <br>
@@ -274,9 +274,11 @@
 
 
     <!--Video Part-->
-    <section class="VideoPart pb-5">
+    <section class="VideoPart pb-lg-5 pt-lg-0 py-5">
       <div class="container">
-        <video src="images/Video.mp4" controls muted autoplay loop></video>
+        <video src="images/Video.mp4" controls muted autoplay loop class="d-lg-block d-none"></video>
+        <video src="images/VideoVertical.mp4" controls muted autoplay loop class="d-lg-none d-block"></video>
+
       </div>
     </section>
     <!--End Video Part-->
@@ -309,11 +311,11 @@
         </div>
         <div class="row mx-0 mt-5">
 
-          <div class="col-xl-6 d-flex align-items-center justify-content-center">
+          <div class="col-xl-6 d-flex align-items-center justify-content-center order-lg-0 order-1">
             <img src="images/CompaniesPage/2.png" alt="icon2" class="TextAndIconImages">
           </div>
 
-          <div class="col-xl-6 d-flex flex-column align-items-start justify-content-center">
+          <div class="col-xl-6 d-flex flex-column align-items-start justify-content-center order-lg-1 order-0">
             <div class="SectionTitle GreyText ">سهولة الانتشار والتوسع
             </div>
             <div class="Texts ps-3 pe-md-5 my-3" style="border-right: 3px solid black;">
@@ -361,11 +363,11 @@
         </div>
         <div class="row mx-0 mt-5">
 
-          <div class="col-xl-6 d-flex align-items-center justify-content-center">
-            <img src="images/CompaniesPage/4.png" alt="icon4" class="TextAndIconImages">
+          <div class="col-xl-6 d-flex align-items-center justify-content-center order-lg-0 order-1">
+            <img src="images/CompaniesPage/4.png" alt="icon4" class="TextAndIconImages ">
           </div>
 
-          <div class="col-xl-6 d-flex flex-column align-items-start justify-content-center">
+          <div class="col-xl-6 d-flex flex-column align-items-start justify-content-center order-lg-1 order-0">
             <div class="SectionTitle GreyText ">
               تقليل الأعباء الإدارية
             </div>
@@ -401,7 +403,43 @@
           <div class="carousel"
             data-flickity='{ "wrapAround": true, "freeScroll": false, "contain": true, "prevNextButtons": false, "pageDots": false,"wrapAround": true,"adaptiveHeight": true,"autoPlay": 2000  }'>
             <div class="carousel-cell">
-              <div class="BigCard p-4">
+              <div class="BigCard p-lg-4 p-3">
+                <div class="card mb-3 bg-transparent border-0">
+                  <div class="row g-0">
+                    <div class="col-md-2 d-flex align-items-center justify-content-center">
+                      <img src="images/CompaniesPage/ProfileIcon.png" class="img-fluid rounded-start w-100"
+                        alt="ProfileIcon">
+                    </div>
+                    <div class="col-md-10">
+                      <div class="card-body">
+                        <h5 class="card-title Texts BoldFont WhiteText">
+                          اسم العميل
+                          <span class="float-end Rating">
+                            <i class="fa-solid fa-star me-1"></i>
+                            <i class="fa-solid fa-star me-1"></i>
+
+                            <i class="fa-solid fa-star me-1"></i>
+                            <i class="fa-regular fa-star me-1"></i>
+                            <i class="fa-regular fa-star "></i>
+
+                          </span>
+                        </h5>
+                        <p class="card-text Texts BoldFont WhiteText">
+                          الوظيفة</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="paragraph WhiteText ReviewText">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  indust dummy text of the printing and typesetting industry.
+                  dummy text of the printing and typesetting industry.dummy text of the printing and typesetting
+                  industry.dummy text of the printing and typesetting industry.
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="BigCard p-lg-4 p-3">
                 <div class="card mb-3 bg-transparent border-0">
                   <div class="row g-0">
                     <div class="col-md-2 d-flex align-items-center justify-content-center">
@@ -436,7 +474,7 @@
               </div>
             </div>
             <div class="carousel-cell">
-              <div class="BigCard p-4">
+              <div class="BigCard p-lg-4 p-3">
                 <div class="card mb-3 bg-transparent border-0">
                   <div class="row g-0">
                     <div class="col-md-2 d-flex align-items-center justify-content-center">
@@ -471,7 +509,7 @@
               </div>
             </div>
             <div class="carousel-cell">
-              <div class="BigCard p-4">
+              <div class="BigCard p-lg-4 p-3">
                 <div class="card mb-3 bg-transparent border-0">
                   <div class="row g-0">
                     <div class="col-md-2 d-flex align-items-center justify-content-center">
@@ -506,42 +544,7 @@
               </div>
             </div>
             <div class="carousel-cell">
-              <div class="BigCard p-4">
-                <div class="card mb-3 bg-transparent border-0">
-                  <div class="row g-0">
-                    <div class="col-md-2 d-flex align-items-center justify-content-center">
-                      <img src="images/CompaniesPage/ProfileIcon.png" class="img-fluid rounded-start w-100"
-                        alt="ProfileIcon">
-                    </div>
-                    <div class="col-md-10">
-                      <div class="card-body">
-                        <h5 class="card-title Texts BoldFont WhiteText">اسم العميل
-                          <span class="float-end Rating">
-                            <i class="fa-solid fa-star me-1"></i>
-                            <i class="fa-solid fa-star me-1"></i>
-
-                            <i class="fa-solid fa-star me-1"></i>
-                            <i class="fa-regular fa-star me-1"></i>
-                            <i class="fa-regular fa-star "></i>
-
-                          </span>
-                        </h5>
-                        <p class="card-text Texts BoldFont WhiteText">
-                          الوظيفة</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="paragraph WhiteText ReviewText">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                  indust dummy text of the printing and typesetting industry.
-                  dummy text of the printing and typesetting industry.dummy text of the printing and typesetting
-                  industry.dummy text of the printing and typesetting industry.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-cell">
-              <div class="BigCard p-4">
+              <div class="BigCard p-lg-4 p-3">
                 <div class="card mb-3 bg-transparent border-0">
                   <div class="row g-0">
                     <div class="col-md-2 d-flex align-items-center justify-content-center">
