@@ -81,7 +81,7 @@ nav.navbar {
 
 }
 
-nav.active {
+nav.navbar.active, nav.navbar.NoBgNav {
     background-color: white;
     filter: drop-shadow(3px 0px 6px rgba(0, 0, 0, 0.11));
     transition: 0.3s ease all;
@@ -104,23 +104,23 @@ nav.active {
     opacity: 0.9;
 }
 
-nav.active .navbar-nav .nav-link {
+nav.active .navbar-nav .nav-link, nav.NoBgNav .navbar-nav .nav-link {
     color: black !important;
     transition: 0.3s ease all;
 
 }
 
-nav.active .navbar-nav .nav-link.active, nav .navbar-nav .nav-link.active {
+nav.active .navbar-nav .nav-link.active, nav .navbar-nav .nav-link.active, nav.NoBgNav .navbar-nav .nav-link.active {
     font-family: BoldFont;
     opacity: 1;
 
 }
 
-nav.active .navbar-nav .nav-link:hover {
+nav.active .navbar-nav .nav-link:hover, nav.NoBgNav .navbar-nav .nav-link:hover {
     color: black;
 }
 
-nav.active .navbar-brand {
+nav.active .navbar-brand, nav.NoBgNav .navbar-brand {
     filter: none;
     transition: 0.3s ease all;
 
@@ -145,7 +145,7 @@ nav .NavBtn:hover {
     filter: brightness(85%);
 }
 
-nav.active .NavBtn {
+nav.active .NavBtn, nav.NoBgNav .NavBtn {
     background-color: #0f73fc;
 }
 
@@ -745,59 +745,71 @@ End Companies
 Blog
 ************************************
 **************************************/
-.BlogPage  header.header{
+.BlogPage header.header {
     background-image: unset !important;
     height: 75vh;
 }
-.BlogPage  header.header .BlueBG{
+
+.BlogPage header.header .BlueBG {
     border-radius: 15px;
 }
 
-.BlogPage  header.header a h1 .BigText{
+.BlogPage header.header a h1 .BigText {
     font-size: 60px;
     border-bottom: 8px solid #FFB703;
     margin-top: 20px;
     display: block;
 }
-.BlogPage  header.header a{
+
+.BlogPage header.header a {
     text-decoration: none !important;
 }
 
-.BlogPage  header.header a h1{
+.BlogPage header.header a h1 {
     transition: 2s ease all;
 }
-.BlogPage  header.header .BlueBG:hover h1{
+
+.BlogPage header.header .BlueBG:hover h1 {
     transform: scale(1.2);
 }
-.BlogPage  header.header .TextPart .paragraph{
-display: -webkit-box;
--webkit-line-clamp: 4; /* Limit to 6 lines */
--webkit-box-orient: vertical;
-overflow: hidden;
-text-overflow: ellipsis;
+
+.BlogPage header.header .TextPart .paragraph {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* Limit to 6 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.BlogPage header.header a{
+
+.BlogPage header.header a {
     color: #494949 !important;
 }
-.BlogPage header.header a:hover{
+
+.BlogPage header.header a:hover {
     color: #0f73fc !important;
 }
-.BlogPage .NavAndtabs .paragraph{
+
+.BlogPage .NavAndtabs .paragraph {
     color: #494949;
     font-family: BoldFont;
 }
-.BlogPage .NavAndtabs .paragraph:hover{
+
+.BlogPage .NavAndtabs .paragraph:hover {
     color: #0f73fc;
 }
-.BlogPage .NavAndtabs .paragraph.CurrentNav{
+
+.BlogPage .NavAndtabs .paragraph.CurrentNav {
     color: #0f73fc;
     background-color: #0f72fc60 !important;
     padding: 7px 20px;
     border-radius: 5px;
 }
-.BlogPage .BlogCards a{
+
+.BlogPage .BlogCards a {
     text-decoration: none;
 }
+
 .BlogPage .BlogCards a .card {
     background-color: transparent;
     border: none;
@@ -805,23 +817,28 @@ text-overflow: ellipsis;
     padding-bottom: 30px;
     border-bottom: 1px solid #b8b8b8;
 }
-.BlogPage .BlogCards a .card .ImgContainer{
+
+.BlogPage .BlogCards a .card .ImgContainer {
     width: 100%;
     height: fit-content;
     overflow: hidden;
     border-radius: 5px;
 }
-.BlogPage .BlogCards a .card img{
+
+.BlogPage .BlogCards a .card img {
     border-radius: 5px;
     transition: 2s ease all;
 }
-.BlogPage .BlogCards a .card img:hover{
+
+.BlogPage .BlogCards a .card img:hover {
     transform: scale(1.2);
 }
-.BlogPage .BlogCards a .card .paragraph.GreyText.BoldFont:hover{
+
+.BlogPage .BlogCards a .card .paragraph.GreyText.BoldFont:hover {
     color: #FFB703;
 }
-.BlogPage .BlogCards .pagination a.page-link{
+
+.BlogPage .BlogCards .pagination a.page-link {
     border: none;
     background-color: #0f72fc49;
     border-radius: 5px;
@@ -834,19 +851,72 @@ text-overflow: ellipsis;
     width: 40px;
     padding: 0px;
 }
-.BlogPage .BlogCards .pagination .active a.page-link{
+
+.BlogPage .BlogCards .pagination .active a.page-link {
     background-color: #0f72fc;
-   
+
     color: white;
 }
-.BlogPage  .NewsLetter form input{
+
+.BlogPage .NewsLetter form input {
     border: 1px solid #58595b;
     padding: 10px;
     border-radius: 5px;
 }
-.BlogPage  .NewsLetter form button{
+
+.BlogPage .NewsLetter form button {
     border-radius: 5px;
 }
+
+.BlogCards .TopLink {
+    background-color: #0f72fc46;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.MoreBlogBtn {
+    width: 35%;
+    border-radius: 20px;
+    border: none;
+    padding: 7px;
+    margin: auto;
+}
+
+
+/**Comments***/
+.CommentSection .date {
+    font-size: 11px;
+}
+
+.CommentSection .comment-text {
+    font-size: 12px;
+}
+
+.CommentSection .fs-12 {
+    font-size: 12px;
+}
+
+.CommentSection .shadow-none {
+    box-shadow: none;
+}
+
+.CommentSection .name {
+    color: #0f73fc;
+}
+
+.CommentSection .cursor:hover {
+    color: #0f73fc;
+}
+
+.CommentSection .cursor {
+    cursor: pointer;
+}
+
+.CommentSection .textarea {
+    resize: none;
+}
+
+
 /************************************
 ************************************
 End Blog
@@ -1309,17 +1379,29 @@ Media
     section.Characteristics .CharacteristicCards img {
         width: 70%;
     }
-    .BlogPage header.header{
+
+    .BlogPage header.header {
         height: unset !important;
     }
+
     .BlogPage header.header a h1 .BigText {
         font-size: 40px;
     }
-    .BlogPage header.header a h1  {
+
+    .BlogPage header.header a h1 {
         text-align: center;
     }
-    .BlogPage header.header .SectionTitle{
+
+    .BlogPage header.header .SectionTitle {
         line-height: 40px;
+    }
+
+    .TextAndImageBlog .w-50 {
+        width: 100% !important;
+    }
+
+    .MoreBlogBtn {
+        width: 75%;
     }
 }
 
