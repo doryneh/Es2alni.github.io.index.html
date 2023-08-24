@@ -89,10 +89,22 @@ window.addEventListener("scroll", PinkSeperatorAnim);
 /*Navbar effect*/
 $(window).scroll(function () {
   if ($(this).scrollTop() != 0  && $(this).scrollTop() >= 0  ) {
-    $("nav.navbar").addClass("active");
+    $("#Navbar").addClass("active");
   }
  
   else {
-    $("nav.navbar").removeClass("active");
+    $("#Navbar").removeClass("active");
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
