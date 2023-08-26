@@ -755,7 +755,7 @@ Blog
 }
 
 .BlogPage header.header a h1 .BigText {
-    font-size: 60px;
+    font-size: 45px;
     border-bottom: 8px solid #FFB703;
     margin-top: 20px;
     display: block;
@@ -882,9 +882,18 @@ Blog
     margin: auto;
 }
 
-.modal .paragraph{
+.modal .paragraph {
     font-size: 22px;
 }
+
+.paragraph {
+    font-size: 20px;
+}
+
+.CheckSignWhite {
+    filter: brightness(0) invert(1);
+}
+
 /**Comments***/
 .CommentSection .date {
     font-size: 11px;
@@ -925,7 +934,79 @@ End Blog
 ************************************
 **************************************/
 
+/************************************
+************************************
+Individulas Page
+************************************
+**************************************/
+.IndividulasPage header.header {
+    background-image: url(../images/IndividualsPage/HeaderBg.png);
+}
 
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: unset !important;
+}
+
+.IndividulasPage section.HowTo {
+    padding-bottom: 3rem !important;
+    margin-bottom: unset !important;
+}
+
+.OrangeButton {
+    width: fit-content;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+}
+
+.OrangeButton:hover {
+    color: white !important;
+    filter: brightness(80%);
+}
+
+.CardPart .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.CardPart .card img {
+    height: 110px;
+}
+
+.BorderBottom {
+    border-bottom: 1px solid black !important;
+}
+
+.blackBorder {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+.RegiterNow {
+    border-bottom: 8px solid #FFB703;
+    width: fit-content;
+    transition: 0.4s ease all;
+}
+
+.RegiterNow:hover {
+    color: white !important;
+    transform: scale(1.1);
+}
+
+/************************************
+************************************
+End Individulas Page
+************************************
+**************************************/
 
 
 /************************************
@@ -1058,10 +1139,33 @@ Media
 }
 
 @media (max-width: 991px) {
+
     .CompaniesPage header.header {
         height: fit-content !important;
         padding-bottom: 50px !important;
         padding-top: 70px !important;
+    }
+
+    .IndividulasPage.CompaniesPage header.header {
+        height: 100vh !important;
+    }
+
+    .BraketsPart {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .BraketsPart .OrangeText {
+        text-align: start;
+    }
+
+    .list {
+        margin: auto;
+    }
+
+    .RegiterHeaderBtn {
+        display: flex;
+        justify-content: center;
     }
 
     .CompaniesPage header.header .BigText {
@@ -1369,7 +1473,18 @@ Media
     .AboutUs section.OurTeam .paragraph {
         font-size: 13px;
     }
-
+    .BorderBottomSmallScreen{
+        border-bottom: 1px solid black !important;
+    }
+    .blackBorder {
+        display: none;
+    }
+    .CardPart .card .paragraph {
+        font-size: 16px;
+    }
+    .NewsLetter{
+        width: 100% !important;
+    }
     section.TargetCategories .CharacteristicCards {
         min-height: unset;
     }
