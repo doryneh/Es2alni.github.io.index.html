@@ -793,19 +793,20 @@ Blog
 .BlogPage .NavAndtabs .paragraph {
     color: #494949;
     font-family: BoldFont;
-}
-
-.BlogPage .NavAndtabs .paragraph:hover {
-    color: #0f73fc;
-}
-
-.BlogPage .NavAndtabs .paragraph.CurrentNav {
-    color: #0f73fc;
-    background-color: #0f72fc60 !important;
     padding: 7px 20px;
     border-radius: 5px;
+
 }
 
+
+
+.BlogPage .NavAndtabs .paragraph.CurrentNav ,.BlogPage .NavAndtabs .paragraph:hover{
+    color: #0f73fc !important;
+    background-color: #0f72fc60 !important;
+}
+.BlogPage .paragraph {
+    font-size: 16px;
+}
 .BlogPage .BlogCards a {
     text-decoration: none;
 }
